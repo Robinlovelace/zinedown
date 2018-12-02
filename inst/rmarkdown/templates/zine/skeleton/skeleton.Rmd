@@ -1,0 +1,38 @@
+---
+author: 'Your Name'
+date: 'May 20xx'
+title: 'Zine Name'
+knit: "bookdown::render_book"
+site: bookdown::bookdown_site
+output: 
+  zinedown::zine_pdf: default
+#  zinedown::zine_gitbook: default
+#  zinedown::zine_epub: default
+# Intro content for the pdf goes here:
+acknowledgements: |
+  I want to thank a few people.
+bibliography: zine.bib
+lot: true
+lof: true
+---
+
+# Introduction {.unnumbered}
+
+This is the contents of your zine.
+
+# What is a zine?
+
+There is no authoritative definition of zines because, by nature, they are anti-authority [@stoddart_zines_2013]:
+
+> Zines are tricky to define.
+The modern zine bears little resemblance to its cousin, the fanzine..
+There are many kinds of zines in many sizes.
+Today’s zine is a product of the current technological environment.
+A zine may be a few sheets of paper [or] a zine also may be a seventy-five page newsprint book-let produced in a quantity of two thousand and printed by a
+small press at the zinester’s (a zine’s editor) expense.
+
+# More on zines
+
+A book on zines can found at [@duncombe_notes_2014]
+
+# References

@@ -1,0 +1,18 @@
+Package: zinedown
+Title: An R Markdown zine template using the bookdown package
+Version: 0.0.2
+Authors@R: c(
+    person("Robin", "Lovelace", email = "rob00x@gmail.com", role = c("aut", "cre"))
+    )
+Description: This package provides a template to create zines.
+Maintainer: Robin Lovelace <rob00x@gmail.com>
+Depends:
+    R (>= 3.2.0),
+    devtools,
+    bookdown,
+    knitr
+License: MIT
+Encoding: UTF-8
+LazyData: true
+SystemRequirements: pandoc (>= 1.18) - http://pandoc.org
+RoxygenNote: 6.1.1
