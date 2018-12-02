@@ -16,6 +16,12 @@ lot: true
 lof: true
 ---
 
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
 # Introduction {.unnumbered}
 
 This is the contents of your zine.
@@ -31,8 +37,15 @@ Today’s zine is a product of the current technological environment.
 A zine may be a few sheets of paper [or] a zine also may be a seventy-five page newsprint book-let produced in a quantity of two thousand and printed by a
 small press at the zinester’s (a zine’s editor) expense.
 
+# Code
+
+```{r, out.width="100%"}
+plot(1:9)
+```
+
+
 # More on zines
 
-A book on zines can found at [@duncombe_notes_2014]
+A book on zines can found at [@duncombe_notes_2014].
 
 # References
